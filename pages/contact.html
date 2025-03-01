@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
 </head>
+
 <body>
     <h1>Let’s Connect!</h1>
+
+    <p>If you have any questions, need assistance, or just want to chat, feel free to reach out! I’m here to help with
+        whatever you need, whether it’s solving a problem, brainstorming ideas, or just having a friendly conversation.
+    </p>
+
+    <form>
+
+        <fieldset>
+
+            <legend>Personal Details</legend>
+
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Message Details</legend>
+
+            <fieldset>
+
+                <legend>Contact Reason</legend>
+
+                <input type="radio" name="reason" value="general" checked="checked"> General inquiry
+                <input type="radio" name="reason" value="technical"> Technical support or troubleshooting
+                <input type="radio" name="reason" value="feedback"> Feedback or suggestions
+                <input type="radio" name="reason" value="collab"> Partnership or collaboration
+                <input type="radio" name="reason" value="report"> Report a bug or issue
+                <input type="radio" name="reason" value="feature"> Request a feature
+                <input type="radio" name="reason" value="hello"> Just saying hello!
+
+            </fieldset>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Type your message here"></textarea>
+
+        </fieldset>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
 </body>
+
 </html>
